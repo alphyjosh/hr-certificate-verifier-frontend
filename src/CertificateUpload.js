@@ -48,7 +48,7 @@ function CertificateUpload() {
   const [loading, setLoading] = useState(false);
   const [crossCheckResult, setCrossCheckResult] = useState(null);
   const [contacts, setContacts] = useState(null);
-  const [selectedEmail, setSelectedEmail] = useState('');
+
   const [emailStatus, setEmailStatus] = useState(null);
 
   // Manual entry fields for employee details
