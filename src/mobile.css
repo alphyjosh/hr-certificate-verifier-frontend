@@ -1,0 +1,60 @@
+/* Mobile optimization for certificate verifier app */
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  .App {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  h2, h3 {
+    font-size: 1.2em;
+    margin: 12px 0;
+  }
+  form {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    box-sizing: border-box;
+  }
+  input[type="text"], input[type="file"], select, textarea {
+    width: 100% !important;
+    font-size: 1em;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    margin: 8px 0;
+    border-radius: 6px;
+  }
+  .FieldConfidenceBadge {
+    margin-left: 4px;
+    margin-right: 2px;
+    width: 10px;
+    height: 10px;
+  }
+  .modal {
+    min-width: 90vw;
+    min-height: 40vh;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  .upload-container, .history-container {
+    padding: 8px !important;
+    margin: 0 !important;
+    width: 100vw !important;
+  }
+  .suspicious-warning {
+    font-size: 0.95em;
+    padding: 8px;
+    border-radius: 5px;
+  }
+}
